@@ -1,0 +1,59 @@
+/* Estilo para el cuerpo de la página */
+body{
+  background-image: url(img/fondotrading2.jpg); /* Establece la imagen de fondo */
+  background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+  background-size: cover; /* Asegura que la imagen de fondo cubra toda la página */
+  height: auto; /* Establece la altura automática */
+  text-align: center; /* Centra el texto */
+}
+
+/* Estilo para el formulario */
+.formulario{
+  margin-top: 100px; /* Establece el margen superior */
+  text-align: center; /* Centra el texto */
+  border-radius: 2rem; /* Redondea las esquinas del borde */
+  height: 450px; /* Establece la altura */
+  width: 600px; /* Establece el ancho */
+  padding: 3px; /* Establece el relleno */
+  background-color: transparent; /* Establece el color de fondo transparente */
+  float: left; /* Flota a la izquierda */
+  border: 5px solid #ccc; /* Establece el borde */
+  color: rgb(0, 243, 0); /* Establece el color del texto */
+  font-family: fantasy; /* Establece la familia de fuentes */
+}
+
+/* Estilo para el formulario de entrada */
+.input-form{
+  margin-bottom: 1px; /* Establece el margen inferior */
+  margin-left:1px ; /* Establece el margen izquierdo */
+  margin-right:1px ; /* Establece el margen derecho */
+  text-align: center; /* Centra el texto */   
+}
+
+/* Estilo para la etiqueta del formulario de entrada */
+.input-form label{
+  color: rgb(255, 0, 0); /* Establece el color de la etiqueta */
+  margin-top: 2rem; /* Establece el margen superior */
+  padding: 3rem; /* Establece el relleno */
+  font-family: cursive; /* Establece la familia de fuentes */
+}
+
+/* Estilo para la leyenda */
+legend{
+  text-align: center; /* Centra el texto */
+  color: rgb(255, 0, 234); /* Establece el color del texto */
+  display: block; /* Establece el modo de visualización */
+  font-weight: 800; /* Establece el grosor de la fuente */
+  margin-top: 2rem; /* Establece el margen superior */
+  margin-bottom: 2rem; /* Establece el margen inferior */
+  font-family: cursive; /* Establece la familia de fuentes */
+}
+
+/* Estilo para la caja */
+.caja{
+  display: grid; /* Establece el modo de visualización en cuadrícula */
+  margin: 10px; /* Establece el margen */
+  padding: 10px; /* Establece el relleno */
+  grid-template-columns:repeat(2, 1fr); /* Establece el número de columnas en la cuadrícula */
+  grid-template-rows: repeat(4, auto); /* Establece el número de filas en la cuadrícula */
+}
